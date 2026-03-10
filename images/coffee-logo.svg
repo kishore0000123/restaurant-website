@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#f5d07a"/>
+      <stop offset="40%"  stop-color="#c8922a"/>
+      <stop offset="70%"  stop-color="#e8b84b"/>
+      <stop offset="100%" stop-color="#9a6b1f"/>
+    </linearGradient>
+    <linearGradient id="steamGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%"   stop-color="#e8b84b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5d07a" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Steam wisps -->
+  <path d="M35 22 Q32 16 35 10 Q38 4 35 0" fill="none" stroke="url(#steamGrad)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M50 20 Q47 13 50 7 Q53 1 50 -3" fill="none" stroke="url(#steamGrad)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M65 22 Q62 16 65 10 Q68 4 65 0" fill="none" stroke="url(#steamGrad)" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Cup body -->
+  <path d="M18 34 L24 78 Q25 84 32 84 L68 84 Q75 84 76 78 L82 34 Z"
+        fill="url(#goldGrad)" stroke="#9a6b1f" stroke-width="1.2"/>
+
+  <!-- Liquid surface sheen inside cup -->
+  <ellipse cx="50" cy="34" rx="32" ry="6" fill="#c8861a" opacity="0.55"/>
+  <ellipse cx="50" cy="34" rx="20" ry="3.5" fill="#f5d07a" opacity="0.35"/>
+
+  <!-- Subtle latte art swirl -->
+  <path d="M38 50 Q50 44 62 50 Q56 58 50 58 Q44 58 38 50Z" fill="#b07428" opacity="0.35"/>
+  <ellipse cx="50" cy="50" rx="8" ry="5" fill="#e8b84b" opacity="0.25"/>
+
+  <!-- Handle -->
+  <path d="M82 42 Q96 42 96 56 Q96 70 82 70"
+        fill="none" stroke="url(#goldGrad)" stroke-width="5.5" stroke-linecap="round"/>
+
+  <!-- Saucer -->
+  <ellipse cx="50" cy="88" rx="38" ry="7" fill="url(#goldGrad)" stroke="#9a6b1f" stroke-width="1"/>
+  <ellipse cx="50" cy="88" rx="24" ry="4" fill="#c8861a" opacity="0.35"/>
+
+  <!-- Saucer rim highlight -->
+  <ellipse cx="50" cy="86" rx="36" ry="4" fill="none" stroke="#f5d07a" stroke-width="0.8" opacity="0.5"/>
+</svg>
