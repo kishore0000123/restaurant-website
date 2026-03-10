@@ -1,0 +1,22 @@
+# Python server files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (if added later)
+node_modules/
